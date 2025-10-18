@@ -1,0 +1,33 @@
+locale: fr
+currency: "C$"
+
+# Seuils et règles
+ev_min_team: 0.03
+ev_min_player_shots: 0.04
+pmin_1x2: 0.40
+pmin_ou25: 0.52
+pmin_team_shots: 0.53
+pmin_corners: 0.53
+pmin_player_shots: 0.52
+max_odds_team: 5.0
+max_odds_player_shots: 3.5
+
+# Mise
+kelly_fraction_team: 0.5
+kelly_fraction_player: 0.5
+stake_min_pct: 0.0025
+stake_max_pct: 0.02
+
+# Combiné du jour
+combo_odds_min: 3.5
+combo_odds_max: 7.0
+combo_kelly_fraction: 0.25
+combo_stake_min_pct: 0.0025
+combo_stake_max_pct: 0.005
+
+# Données
+leagues_active: ["ENG", "ESP", "FRA"]
+
+# Auto-refresh
+autorefresh_on_start: true
+refresh_hour_local: 7
